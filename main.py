@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 st.set_page_config(page_title="Dashboard Home", layout="wide")
-st.title("📊 Dashboard from API")
+st.title("📊 Dashboard from APIS")
 
 # Call FastAPI backend
 response = requests.get("http://127.0.0.1:8000/sales")
