@@ -6,7 +6,7 @@ st.set_page_config(page_title="Dashboard Home", layout="wide")
 st.title("📊 Dashboard from APIS")
 
 # Call FastAPI backend
-response = requests.get("http://127.0.0.1:8000/sales")
+response = requests.get("https://streamlit-dashboard-ruro.onrender.com/sales")
 
 if response.status_code == 200:
     data = response.json()
