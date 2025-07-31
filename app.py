@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("📊 Simple Sales Dashboard")
+st.title("📊 Simple Sales Dashboards")
 
 file = st.file_uploader("Upload a CSV file", type=["csv"])
 if file:
